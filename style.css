@@ -1,0 +1,106 @@
+
+/* CSS reset*/
+* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+/*HTML CSS codes*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    padding-top: 5rem;
+}
+
+/*.card{
+    height: 28.125rem;
+    width: 46.70%;
+    background-color: hsl(0, 0%, 100%);
+}*/
+
+.card {
+    height: 28.125rem;
+    width: 43.70%;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    margin:auto;
+    display:flex;
+ }
+ 
+ @media (max-width: 767px) {
+   .card {
+     max-width: 90%;
+   }
+ }
+
+.column1{
+    float: left;
+    margin-right: 30px;
+    height: 28.125rem;
+    width:auto;
+    flex: 50%;
+    border-radius: 15px 0 0 15px;
+}
+
+.column2{
+    flex: 50%;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+
+.row{
+    display: flex;
+  }
+
+.bottom {
+    position: fixed;
+    bottom: 10px;
+    }
+
+
