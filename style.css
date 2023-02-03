@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 
 /* CSS reset*/
 * http://meyerweb.com/eric/tools/css/reset/ 
@@ -52,23 +55,20 @@ table {
 /*HTML CSS codes*/
 body{
     background-color: hsl(30, 38%, 92%);
-    padding-top: 5rem;
 }
 
 .card {
     height: 32.125rem;
-    width: 750px;
+    width:700px;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
-    margin:auto;
-    display:flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
  }
-
-@media (max-width: 767px) {
-   .card {
-     max-width: 90%;
-   }
-}
 
 .row{
     display: flex;
@@ -77,18 +77,40 @@ body{
 .column1{
     float: left;
     height: 32.125rem;
-    width:150%;
-    flex: 50%;
+    width:115%;
+    display:flex;
     border-radius: 15px 0 0 15px;
 }
 
+.Montserrat500{
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    color:hsl(228, 12%, 48%);
+}
+
+.Montserrat700{
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    color:white;
+    padding-top: 1%;
+}
+
+.Fraunces{
+font-family: 'Fraunces', serif;
+font-size:2.2rem;
+}
+
+.greenFraunces{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+
 .text{
-    flex: 50%;
-    text-align:left;
-    margin-right: 30px;
-    margin-left: 20%;
-    float: right;
-    padding-top: 3%;
+    padding-top: 2%;
+    flex: 8%;
+    margin-right: 7%;
+    margin-left: 12%;
 }
 
 h3 {
@@ -101,26 +123,24 @@ h3 {
 
 #crossed-price {
     padding-left: 1.2rem;
-    padding-top:1.8rem;
+    padding-top:2rem;
 }
 
 .button {
     height: 3.5rem;
-    width: 20.2rem;
-    border-radius: 5px;
+    width: 16.5rem;
+    border-radius: 8px;
     background-color: hsl(158, 36%, 37%);
-    margin:auto;
     display:flex;
+    margin-top: 0.6rem;
  }
 
 #icon-img{
-    padding-top: 1rem;
-    padding-right: 1.25rem;
-    padding-left:4.5rem;
-    height: 1.2rem;
+    padding-top: 1.30rem;
+    padding-right: 1.1rem;
+    padding-left:3.2rem;
+    height: 1rem;
     width: 1.2rem;
-    /*display:flex;
-    margin: auto;*/
  }
 
 /*footer style*/

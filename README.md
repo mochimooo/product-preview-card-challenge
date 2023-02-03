@@ -71,22 +71,19 @@ For this, I didn't include 'type' originally, and I thought just inputting 'css'
 }
 ```
 
-
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+-I need to practice more on how to use CSS selectors more efficiently. For example: the font style for both "Gabrielle Essence Eau De Parfum" and "$149.99" is the same, and the only difference is the color. I don't know how to use combination CSS selector to ditinguish the two.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
 - [CSS line-height Property](https://www.w3schools.com/cssref/pr_dim_line-height.php) - I learned how to space out the description of the product by using line-height property.
 - [letter-spacing](https://cssreference.io/property/letter-spacing/#:~:text=You%20can%20use%20pixel%20values.&text=letter%2Dspacing%3A%200.1em%3B,relative%20to%20the%20font%2Dsize.) - This page explains how to use letter-spacing.
-- [How To-Cards] (https://www.w3schools.com/howto/howto_css_cards.asp) - I still need to practice using this feature of CSS to make cards.
+- [How To-Cards](https://www.w3schools.com/howto/howto_css_cards.asp) - I still need to practice using this feature of CSS to make cards.
+- [Deploying to GitHub Pages](https://www.codecademy.com/article/f1-u3-github-pages) - This website is helpful in explaining how to deploy more websites as you complete new challenge projects.
 
 ## Author
 
