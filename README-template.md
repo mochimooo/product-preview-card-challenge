@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://mochimooo.github.io/product-preview-card-challenge)
 
 ## My process
 
@@ -60,24 +60,17 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<link rel='stylesheet' type="text/css" href="sytle.css">
+For this, I didn't include 'type' originally, and I thought just inputting 'css' instead of 'text/css' would work; it ended up stripping all the CSS codes. NEVER DO THAT AGAIN.
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
@@ -91,10 +84,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS line-height Property](https://www.w3schools.com/cssref/pr_dim_line-height.php) - I learned how to space out the description of the product by using line-height property.
+- [letter-spacing](https://cssreference.io/property/letter-spacing/#:~:text=You%20can%20use%20pixel%20values.&text=letter%2Dspacing%3A%200.1em%3B,relative%20to%20the%20font%2Dsize.) - This page explains how to use letter-spacing.
 
 ## Author
 
