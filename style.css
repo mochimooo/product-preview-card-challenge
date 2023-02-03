@@ -50,57 +50,84 @@ table {
 }
 
 /*HTML CSS codes*/
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 body{
     background-color: hsl(30, 38%, 92%);
     padding-top: 5rem;
 }
 
-/*.card{
-    height: 28.125rem;
-    width: 46.70%;
-    background-color: hsl(0, 0%, 100%);
-}*/
-
 .card {
-    height: 28.125rem;
-    width: 43.70%;
+    height: 32.125rem;
+    width: 750px;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
     margin:auto;
     display:flex;
  }
- 
- @media (max-width: 767px) {
+
+@media (max-width: 767px) {
    .card {
      max-width: 90%;
    }
- }
-
-.column1{
-    float: left;
-    margin-right: 30px;
-    height: 28.125rem;
-    width:auto;
-    flex: 50%;
-    border-radius: 15px 0 0 15px;
-}
-
-.column2{
-    flex: 50%;
-    margin-right: 30px;
-    padding-top: 15px;
 }
 
 .row{
     display: flex;
-  }
+}
 
+.column1{
+    float: left;
+    height: 32.125rem;
+    width:150%;
+    flex: 50%;
+    border-radius: 15px 0 0 15px;
+}
+
+.text{
+    flex: 50%;
+    text-align:left;
+    margin-right: 30px;
+    margin-left: 20%;
+    float: right;
+    padding-top: 3%;
+}
+
+h3 {
+    line-height: 1.6;
+}
+
+#letter-spacing{
+    letter-spacing: 0.5em;
+}
+
+#crossed-price {
+    padding-left: 1.2rem;
+    padding-top:1.8rem;
+}
+
+.button {
+    height: 3.5rem;
+    width: 20.2rem;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+    margin:auto;
+    display:flex;
+ }
+
+#icon-img{
+    padding-top: 1rem;
+    padding-right: 1.25rem;
+    padding-left:4.5rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    /*display:flex;
+    margin: auto;*/
+ }
+
+/*footer style*/
+.attribution { font-size: 11px; text-align: center; display: flex;
+    justify-content: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
 .bottom {
     position: fixed;
     bottom: 10px;
     }
-
-
