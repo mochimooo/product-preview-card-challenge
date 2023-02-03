@@ -59,10 +59,9 @@ body{
 
 .card {
     height: 32.125rem;
-    width:700px;
+    width:44.5rem;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
-    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,10 +74,8 @@ body{
 }
 
 .column1{
-    float: left;
     height: 32.125rem;
     width:115%;
-    display:flex;
     border-radius: 15px 0 0 15px;
 }
 
@@ -136,9 +133,7 @@ h3 {
  }
 
 #icon-img{
-    padding-top: 1.30rem;
-    padding-right: 1.1rem;
-    padding-left:3.2rem;
+    padding: 1.30rem 1.1rem 0 3.2rem;
     height: 1rem;
     width: 1.2rem;
  }

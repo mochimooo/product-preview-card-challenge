@@ -16,8 +16,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,19 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![screenshot](./images/Screenshot%202023-02-03%20181348.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mochimooo/product-preview-card-challenge)
+- Solution URL: [https://github.com/mochimooo/product-preview-card-challenge]
 - Live Site URL: [https://mochimooo.github.io/product-preview-card-challenge]
 
 ## My process
@@ -50,33 +40,50 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 ```html
 <link rel='stylesheet' type="text/css" href="sytle.css">
 For this, I didn't include 'type' originally, and I thought just inputting 'css' instead of 'text/css' would work; it ended up stripping all the CSS codes. NEVER DO THAT AGAIN.
 ```
+<s></s>
+This one is a word strike tag that crosses the price number.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.card {
+    height: 32.125rem;
+    width:700px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ }
+
+ h3 {
+    line-height: 1.6;
 }
+
+#letter-spacing{
+    letter-spacing: 0.5em;
+}
+
+row {
+  display: flex
+}
+This one allows me to put two different texts in the same line; it also helped me put the picture and text side-by-side.
+
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 ### Continued development
 
+(Note: written on 2/3/2023 for the first finish)
 -I need to practice more on how to use CSS selectors more efficiently. For example: the font style for both "Gabrielle Essence Eau De Parfum" and "$149.99" is the same, and the only difference is the color. I don't know how to use combination CSS selector to ditinguish the two.
-
+- Learn how to make the card responsive to screen size. Currently the size of the card is static.
+- Learn how to make the mobile version of this webpage.
+- As of today (2/3/2023), I haven't learn how to make it so that user can see hover and focus states for interactive elements. This definitely would be something I need to learn.
 
 ### Useful resources
 
@@ -87,11 +94,8 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@Mochimooo](https://www.frontendmentor.io/profile/Mochimooo)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I'd like to thank @MelvinAguilar on FrontEnd Mentor for being the first person that gives me advice for my first-ever challenge project (Frontend Mentor QR code challenge). It motivated me to try more coding. I'd also like to thank my brother Benny and my friend Anh for encouraging me to start on this path.
