@@ -41,8 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://mochimooo.github.io/product-preview-card-challenge)
+- Solution URL: [Add solution URL here](https://github.com/mochimooo/product-preview-card-challenge)
+- Live Site URL: [https://mochimooo.github.io/product-preview-card-challenge]
 
 ## My process
 
@@ -86,17 +86,15 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [CSS line-height Property](https://www.w3schools.com/cssref/pr_dim_line-height.php) - I learned how to space out the description of the product by using line-height property.
 - [letter-spacing](https://cssreference.io/property/letter-spacing/#:~:text=You%20can%20use%20pixel%20values.&text=letter%2Dspacing%3A%200.1em%3B,relative%20to%20the%20font%2Dsize.) - This page explains how to use letter-spacing.
+- [How To-Cards] (https://www.w3schools.com/howto/howto_css_cards.asp) - I still need to practice using this feature of CSS to make cards.
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
